@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77347922A128D240088CF89 /* Eatable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77347902A128D240088CF89 /* Eatable+CoreDataClass.swift */; };
+		E77347932A128D240088CF89 /* Eatable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77347912A128D240088CF89 /* Eatable+CoreDataProperties.swift */; };
+		E773479E2A128DA40088CF89 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E773479C2A128DA40088CF89 /* Product+CoreDataClass.swift */; };
+		E773479F2A128DA40088CF89 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E773479D2A128DA40088CF89 /* Product+CoreDataProperties.swift */; };
+		E77347A62A128DFF0088CF89 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77347A22A128DFF0088CF89 /* Meal+CoreDataClass.swift */; };
+		E77347A72A128DFF0088CF89 /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77347A32A128DFF0088CF89 /* Meal+CoreDataProperties.swift */; };
+		E77347AE2A1293FC0088CF89 /* EatingDay+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77347AC2A1293FC0088CF89 /* EatingDay+CoreDataClass.swift */; };
+		E77347AF2A1293FC0088CF89 /* EatingDay+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77347AD2A1293FC0088CF89 /* EatingDay+CoreDataProperties.swift */; };
+		E78051B02A1107A20074232D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78051AF2A1107A20074232D /* AppDelegate.swift */; };
+		E78051B22A1107A20074232D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78051B12A1107A20074232D /* SceneDelegate.swift */; };
+		E78051B42A1107A20074232D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78051B32A1107A20074232D /* MainViewController.swift */; };
+		E78051B72A1107A20074232D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78051B52A1107A20074232D /* Main.storyboard */; };
+		E78051BA2A1107A20074232D /* MyKcals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E78051B82A1107A20074232D /* MyKcals.xcdatamodeld */; };
+		E78051BC2A1107A20074232D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78051BB2A1107A20074232D /* Assets.xcassets */; };
+		E78051BF2A1107A20074232D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78051BD2A1107A20074232D /* LaunchScreen.storyboard */; };
+		E78051CA2A1107A20074232D /* MyKcalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78051C92A1107A20074232D /* MyKcalsTests.swift */; };
+		E78051D42A1107A20074232D /* MyKcalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78051D32A1107A20074232D /* MyKcalsUITests.swift */; };
+		E78051D62A1107A20074232D /* MyKcalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78051D52A1107A20074232D /* MyKcalsUITestsLaunchTests.swift */; };
+		E7EB12E02A13A99D00D2D176 /* MealCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB12DF2A13A99D00D2D176 /* MealCreationViewController.swift */; };
+		E7EB12E22A13AD2600D2D176 /* ProductSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB12E12A13AD2600D2D176 /* ProductSearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E78051C62A1107A20074232D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78051A42A1107A20074232D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78051AB2A1107A20074232D;
+			remoteInfo = MyKcals;
+		};
+		E78051D02A1107A20074232D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78051A42A1107A20074232D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78051AB2A1107A20074232D;
+			remoteInfo = MyKcals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77347902A128D240088CF89 /* Eatable+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eatable+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E77347912A128D240088CF89 /* Eatable+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eatable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E773479C2A128DA40088CF89 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E773479D2A128DA40088CF89 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E77347A22A128DFF0088CF89 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E77347A32A128DFF0088CF89 /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E77347AC2A1293FC0088CF89 /* EatingDay+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EatingDay+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E77347AD2A1293FC0088CF89 /* EatingDay+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EatingDay+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E78051AC2A1107A20074232D /* MyKcals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyKcals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78051AF2A1107A20074232D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E78051B12A1107A20074232D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E78051B32A1107A20074232D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E78051B62A1107A20074232D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E78051B92A1107A20074232D /* MyKcals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyKcals.xcdatamodel; sourceTree = "<group>"; };
+		E78051BB2A1107A20074232D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E78051BE2A1107A20074232D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E78051C02A1107A20074232D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78051C52A1107A20074232D /* MyKcalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKcalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78051C92A1107A20074232D /* MyKcalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKcalsTests.swift; sourceTree = "<group>"; };
+		E78051CF2A1107A20074232D /* MyKcalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKcalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78051D32A1107A20074232D /* MyKcalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKcalsUITests.swift; sourceTree = "<group>"; };
+		E78051D52A1107A20074232D /* MyKcalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKcalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7EB12DF2A13A99D00D2D176 /* MealCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCreationViewController.swift; sourceTree = "<group>"; };
+		E7EB12E12A13AD2600D2D176 /* ProductSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E78051A92A1107A20074232D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78051C22A1107A20074232D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78051CC2A1107A20074232D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78051A32A1107A20074232D = {
+			isa = PBXGroup;
+			children = (
+				E78051AE2A1107A20074232D /* MyKcals */,
+				E78051C82A1107A20074232D /* MyKcalsTests */,
+				E78051D22A1107A20074232D /* MyKcalsUITests */,
+				E78051AD2A1107A20074232D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E78051AD2A1107A20074232D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78051AC2A1107A20074232D /* MyKcals.app */,
+				E78051C52A1107A20074232D /* MyKcalsTests.xctest */,
+				E78051CF2A1107A20074232D /* MyKcalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78051AE2A1107A20074232D /* MyKcals */ = {
+			isa = PBXGroup;
+			children = (
+				E7EB12DE2A13A97500D2D176 /* ViewControllers */,
+				E7EB12DD2A13543B00D2D176 /* Views */,
+				E7FE6BC72A128C200045EB00 /* Models */,
+				E78051B82A1107A20074232D /* MyKcals.xcdatamodeld */,
+				E78051AF2A1107A20074232D /* AppDelegate.swift */,
+				E78051B12A1107A20074232D /* SceneDelegate.swift */,
+				E78051B32A1107A20074232D /* MainViewController.swift */,
+				E78051B52A1107A20074232D /* Main.storyboard */,
+				E78051BB2A1107A20074232D /* Assets.xcassets */,
+				E78051BD2A1107A20074232D /* LaunchScreen.storyboard */,
+				E78051C02A1107A20074232D /* Info.plist */,
+			);
+			path = MyKcals;
+			sourceTree = "<group>";
+		};
+		E78051C82A1107A20074232D /* MyKcalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E78051C92A1107A20074232D /* MyKcalsTests.swift */,
+			);
+			path = MyKcalsTests;
+			sourceTree = "<group>";
+		};
+		E78051D22A1107A20074232D /* MyKcalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E78051D32A1107A20074232D /* MyKcalsUITests.swift */,
+				E78051D52A1107A20074232D /* MyKcalsUITestsLaunchTests.swift */,
+			);
+			path = MyKcalsUITests;
+			sourceTree = "<group>";
+		};
+		E7EB12DD2A13543B00D2D176 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7EB12DE2A13A97500D2D176 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7EB12DF2A13A99D00D2D176 /* MealCreationViewController.swift */,
+				E7EB12E12A13AD2600D2D176 /* ProductSearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E7FE6BC72A128C200045EB00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E77347AC2A1293FC0088CF89 /* EatingDay+CoreDataClass.swift */,
+				E77347AD2A1293FC0088CF89 /* EatingDay+CoreDataProperties.swift */,
+				E77347A22A128DFF0088CF89 /* Meal+CoreDataClass.swift */,
+				E77347A32A128DFF0088CF89 /* Meal+CoreDataProperties.swift */,
+				E773479C2A128DA40088CF89 /* Product+CoreDataClass.swift */,
+				E773479D2A128DA40088CF89 /* Product+CoreDataProperties.swift */,
+				E77347902A128D240088CF89 /* Eatable+CoreDataClass.swift */,
+				E77347912A128D240088CF89 /* Eatable+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E78051AB2A1107A20074232D /* MyKcals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78051D92A1107A20074232D /* Build configuration list for PBXNativeTarget "MyKcals" */;
+			buildPhases = (
+				E78051A82A1107A20074232D /* Sources */,
+				E78051A92A1107A20074232D /* Frameworks */,
+				E78051AA2A1107A20074232D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyKcals;
+			productName = MyKcals;
+			productReference = E78051AC2A1107A20074232D /* MyKcals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E78051C42A1107A20074232D /* MyKcalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78051DC2A1107A20074232D /* Build configuration list for PBXNativeTarget "MyKcalsTests" */;
+			buildPhases = (
+				E78051C12A1107A20074232D /* Sources */,
+				E78051C22A1107A20074232D /* Frameworks */,
+				E78051C32A1107A20074232D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78051C72A1107A20074232D /* PBXTargetDependency */,
+			);
+			name = MyKcalsTests;
+			productName = MyKcalsTests;
+			productReference = E78051C52A1107A20074232D /* MyKcalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E78051CE2A1107A20074232D /* MyKcalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78051DF2A1107A20074232D /* Build configuration list for PBXNativeTarget "MyKcalsUITests" */;
+			buildPhases = (
+				E78051CB2A1107A20074232D /* Sources */,
+				E78051CC2A1107A20074232D /* Frameworks */,
+				E78051CD2A1107A20074232D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E78051D12A1107A20074232D /* PBXTargetDependency */,
+			);
+			name = MyKcalsUITests;
+			productName = MyKcalsUITests;
+			productReference = E78051CF2A1107A20074232D /* MyKcalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78051A42A1107A20074232D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E78051AB2A1107A20074232D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E78051C42A1107A20074232D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E78051AB2A1107A20074232D;
+					};
+					E78051CE2A1107A20074232D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E78051AB2A1107A20074232D;
+					};
+				};
+			};
+			buildConfigurationList = E78051A72A1107A20074232D /* Build configuration list for PBXProject "MyKcals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78051A32A1107A20074232D;
+			productRefGroup = E78051AD2A1107A20074232D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E78051AB2A1107A20074232D /* MyKcals */,
+				E78051C42A1107A20074232D /* MyKcalsTests */,
+				E78051CE2A1107A20074232D /* MyKcalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E78051AA2A1107A20074232D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78051BF2A1107A20074232D /* LaunchScreen.storyboard in Resources */,
+				E78051BC2A1107A20074232D /* Assets.xcassets in Resources */,
+				E78051B72A1107A20074232D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78051C32A1107A20074232D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78051CD2A1107A20074232D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E78051A82A1107A20074232D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EB12E02A13A99D00D2D176 /* MealCreationViewController.swift in Sources */,
+				E78051BA2A1107A20074232D /* MyKcals.xcdatamodeld in Sources */,
+				E7EB12E22A13AD2600D2D176 /* ProductSearchViewController.swift in Sources */,
+				E77347A72A128DFF0088CF89 /* Meal+CoreDataProperties.swift in Sources */,
+				E78051B42A1107A20074232D /* MainViewController.swift in Sources */,
+				E77347A62A128DFF0088CF89 /* Meal+CoreDataClass.swift in Sources */,
+				E77347932A128D240088CF89 /* Eatable+CoreDataProperties.swift in Sources */,
+				E773479E2A128DA40088CF89 /* Product+CoreDataClass.swift in Sources */,
+				E78051B02A1107A20074232D /* AppDelegate.swift in Sources */,
+				E78051B22A1107A20074232D /* SceneDelegate.swift in Sources */,
+				E773479F2A128DA40088CF89 /* Product+CoreDataProperties.swift in Sources */,
+				E77347922A128D240088CF89 /* Eatable+CoreDataClass.swift in Sources */,
+				E77347AF2A1293FC0088CF89 /* EatingDay+CoreDataProperties.swift in Sources */,
+				E77347AE2A1293FC0088CF89 /* EatingDay+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78051C12A1107A20074232D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78051CA2A1107A20074232D /* MyKcalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78051CB2A1107A20074232D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78051D42A1107A20074232D /* MyKcalsUITests.swift in Sources */,
+				E78051D62A1107A20074232D /* MyKcalsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E78051C72A1107A20074232D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78051AB2A1107A20074232D /* MyKcals */;
+			targetProxy = E78051C62A1107A20074232D /* PBXContainerItemProxy */;
+		};
+		E78051D12A1107A20074232D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78051AB2A1107A20074232D /* MyKcals */;
+			targetProxy = E78051D02A1107A20074232D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E78051B52A1107A20074232D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78051B62A1107A20074232D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E78051BD2A1107A20074232D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78051BE2A1107A20074232D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78051D72A1107A20074232D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E78051D82A1107A20074232D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78051DA2A1107A20074232D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68T5F3F5L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyKcals/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.apps.MyKcals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E78051DB2A1107A20074232D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68T5F3F5L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyKcals/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.apps.MyKcals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E78051DD2A1107A20074232D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68T5F3F5L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.apps.MyKcalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyKcals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyKcals";
+			};
+			name = Debug;
+		};
+		E78051DE2A1107A20074232D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68T5F3F5L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.apps.MyKcalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyKcals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyKcals";
+			};
+			name = Release;
+		};
+		E78051E02A1107A20074232D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68T5F3F5L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.apps.MyKcalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyKcals;
+			};
+			name = Debug;
+		};
+		E78051E12A1107A20074232D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68T5F3F5L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.apps.MyKcalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyKcals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E78051A72A1107A20074232D /* Build configuration list for PBXProject "MyKcals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78051D72A1107A20074232D /* Debug */,
+				E78051D82A1107A20074232D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78051D92A1107A20074232D /* Build configuration list for PBXNativeTarget "MyKcals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78051DA2A1107A20074232D /* Debug */,
+				E78051DB2A1107A20074232D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78051DC2A1107A20074232D /* Build configuration list for PBXNativeTarget "MyKcalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78051DD2A1107A20074232D /* Debug */,
+				E78051DE2A1107A20074232D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78051DF2A1107A20074232D /* Build configuration list for PBXNativeTarget "MyKcalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78051E02A1107A20074232D /* Debug */,
+				E78051E12A1107A20074232D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E78051B82A1107A20074232D /* MyKcals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E78051B92A1107A20074232D /* MyKcals.xcdatamodel */,
+			);
+			currentVersion = E78051B92A1107A20074232D /* MyKcals.xcdatamodel */;
+			path = MyKcals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E78051A42A1107A20074232D /* Project object */;
+}

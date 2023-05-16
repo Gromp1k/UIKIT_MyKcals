@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Eatable" representedClassName="Eatable" isAbstract="YES" syncable="YES">
+        <attribute name="name" attributeType="String" minValueString="1"/>
+    </entity>
+    <entity name="EatingDay" representedClassName="EatingDay" syncable="YES">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="eaten_food" optional="YES" attributeType="Transformable" customClassName="[Eatable]"/>
+    </entity>
+    <entity name="Meal" representedClassName="Meal" parentEntity="Eatable" syncable="YES">
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="product_ids" optional="YES" attributeType="Transformable" customClassName="[Int64]"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" parentEntity="Eatable" syncable="YES">
+        <attribute name="carbs" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fats" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kcalories" attributeType="Integer 64" minValueString="0" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="proteins" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sugars" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+</model>
